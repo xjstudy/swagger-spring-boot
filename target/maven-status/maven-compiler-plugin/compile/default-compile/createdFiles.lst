@@ -1,0 +1,15 @@
+com/atools/swagger/properties/ApiDataType.class
+com/atools/swagger/properties/SwaggerProperties$ResponseMessageBody.class
+META-INF/spring-configuration-metadata.json
+com/atools/swagger/properties/SwaggerProperties$Contact.class
+com/atools/swagger/properties/SwaggerSecurityProperties.class
+com/atools/swagger/security/SwaggerSecurity.class
+com/atools/swagger/annotation/EnableSwagger2Doc.class
+com/atools/swagger/properties/SwaggerProperties.class
+com/atools/swagger/configuration/MyBeanValidatorPluginsConfiguration.class
+com/atools/swagger/properties/ApiParamType.class
+com/atools/swagger/SwaggerAutoConfiguration.class
+com/atools/swagger/properties/SwaggerSecurityProperties$ApiKey.class
+com/atools/swagger/properties/SwaggerProperties$GlobalOperationParameter.class
+com/atools/swagger/properties/enums/PathType.class
+com/atools/swagger/properties/SwaggerProperties$GroupInfo.class

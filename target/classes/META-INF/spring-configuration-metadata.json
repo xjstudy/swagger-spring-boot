@@ -1,0 +1,266 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.atools.swagger.properties.SwaggerProperties",
+      "name": "spring.swagger",
+      "type": "com.atools.swagger.properties.SwaggerProperties"
+    },
+    {
+      "sourceType": "com.atools.swagger.properties.SwaggerProperties",
+      "name": "spring.swagger.contact",
+      "type": "com.atools.swagger.properties.SwaggerProperties$Contact"
+    },
+    {
+      "sourceType": "com.atools.swagger.properties.SwaggerProperties$GroupInfo",
+      "name": "spring.swagger.groups",
+      "type": "com.atools.swagger.properties.SwaggerProperties$GroupInfo"
+    },
+    {
+      "sourceType": "com.atools.swagger.properties.SwaggerProperties$GroupInfo",
+      "name": "spring.swagger.groups.contact",
+      "type": "com.atools.swagger.properties.SwaggerProperties$Contact"
+    },
+    {
+      "sourceType": "com.atools.swagger.properties.SwaggerSecurityProperties",
+      "name": "spring.swagger.security",
+      "type": "com.atools.swagger.properties.SwaggerSecurityProperties"
+    },
+    {
+      "sourceType": "com.atools.swagger.properties.SwaggerSecurityProperties",
+      "name": "spring.swagger.security.api-key",
+      "type": "com.atools.swagger.properties.SwaggerSecurityProperties$ApiKey"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.atools.swagger.properties.SwaggerProperties",
+      "defaultValue": "",
+      "name": "spring.swagger.base-package",
+      "description": "swagger会解析的包路径",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.atools.swagger.properties.SwaggerProperties",
+      "name": "spring.swagger.base-path",
+      "description": "swagger会解析的url规则",
+      "type": "java.util.List<java.lang.String>"
+    },
+    {
+      "sourceType": "com.atools.swagger.properties.SwaggerProperties$Contact",
+      "name": "spring.swagger.contact.email",
+      "description": "联系人email",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.atools.swagger.properties.SwaggerProperties$Contact",
+      "name": "spring.swagger.contact.name",
+      "description": "联系人",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.atools.swagger.properties.SwaggerProperties$Contact",
+      "name": "spring.swagger.contact.url",
+      "description": "联系人url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.atools.swagger.properties.SwaggerProperties",
+      "defaultValue": "",
+      "name": "spring.swagger.description",
+      "description": "描述",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.atools.swagger.properties.SwaggerProperties",
+      "name": "spring.swagger.enabled",
+      "description": "是否开启swagger",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.atools.swagger.properties.SwaggerProperties",
+      "name": "spring.swagger.exclude-path",
+      "description": "在basePath基础上需要排除的url规则",
+      "type": "java.util.List<java.lang.String>"
+    },
+    {
+      "sourceType": "com.atools.swagger.properties.SwaggerProperties",
+      "name": "spring.swagger.global-operation-parameters",
+      "description": "全局参数配置",
+      "type": "java.util.List<com.atools.swagger.properties.SwaggerProperties.GlobalOperationParameter>"
+    },
+    {
+      "sourceType": "com.atools.swagger.properties.SwaggerProperties",
+      "name": "spring.swagger.global-response-messages",
+      "description": "全局响应配置",
+      "type": "java.util.Map<org.springframework.web.bind.annotation.RequestMethod,java.util.List<com.atools.swagger.properties.SwaggerProperties.ResponseMessageBody>>"
+    },
+    {
+      "sourceType": "com.atools.swagger.properties.SwaggerProperties",
+      "name": "spring.swagger.groups",
+      "description": "分组文档",
+      "type": "java.util.Map<java.lang.String,com.atools.swagger.properties.SwaggerProperties.GroupInfo>"
+    },
+    {
+      "sourceType": "com.atools.swagger.properties.SwaggerProperties$GroupInfo",
+      "name": "spring.swagger.groups.base-package",
+      "description": "swagger会解析的包路径",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.atools.swagger.properties.SwaggerProperties$GroupInfo",
+      "name": "spring.swagger.groups.base-path",
+      "description": "swagger会解析的url规则",
+      "type": "java.util.List<java.lang.String>"
+    },
+    {
+      "sourceType": "com.atools.swagger.properties.SwaggerProperties$Contact",
+      "name": "spring.swagger.groups.contact.email",
+      "description": "联系人email",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.atools.swagger.properties.SwaggerProperties$Contact",
+      "name": "spring.swagger.groups.contact.name",
+      "description": "联系人",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.atools.swagger.properties.SwaggerProperties$Contact",
+      "name": "spring.swagger.groups.contact.url",
+      "description": "联系人url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.atools.swagger.properties.SwaggerProperties$GroupInfo",
+      "name": "spring.swagger.groups.description",
+      "description": "描述",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.atools.swagger.properties.SwaggerProperties$GroupInfo",
+      "name": "spring.swagger.groups.exclude-path",
+      "description": "在basePath基础上需要排除的url规则",
+      "type": "java.util.List<java.lang.String>"
+    },
+    {
+      "sourceType": "com.atools.swagger.properties.SwaggerProperties$GroupInfo",
+      "name": "spring.swagger.groups.global-operation-parameters",
+      "description": "分组里的全局参数",
+      "type": "java.util.List<com.atools.swagger.properties.SwaggerProperties.GlobalOperationParameter>"
+    },
+    {
+      "sourceType": "com.atools.swagger.properties.SwaggerProperties$GroupInfo",
+      "name": "spring.swagger.groups.license",
+      "description": "许可证",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.atools.swagger.properties.SwaggerProperties$GroupInfo",
+      "name": "spring.swagger.groups.license-url",
+      "description": "许可证URL",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.atools.swagger.properties.SwaggerProperties$GroupInfo",
+      "name": "spring.swagger.groups.terms-of-service-url",
+      "description": "服务条款URL",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.atools.swagger.properties.SwaggerProperties$GroupInfo",
+      "name": "spring.swagger.groups.title",
+      "description": "标题",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.atools.swagger.properties.SwaggerProperties$GroupInfo",
+      "name": "spring.swagger.groups.version",
+      "description": "版本",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.atools.swagger.properties.SwaggerProperties",
+      "defaultValue": "",
+      "name": "spring.swagger.host",
+      "description": "host信息",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.atools.swagger.properties.SwaggerProperties",
+      "defaultValue": "",
+      "name": "spring.swagger.license",
+      "description": "许可证",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.atools.swagger.properties.SwaggerProperties",
+      "defaultValue": "",
+      "name": "spring.swagger.license-url",
+      "description": "许可证URL",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.atools.swagger.properties.SwaggerSecurityProperties$ApiKey",
+      "defaultValue": "\/anyPath.*",
+      "name": "spring.swagger.security.api-key.auth-regex",
+      "description": "自定义匹配路径的正则(如：\/anyPath.*)",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.atools.swagger.properties.SwaggerSecurityProperties$ApiKey",
+      "defaultValue": "token",
+      "name": "spring.swagger.security.api-key.key-name",
+      "description": "传递的鉴权参数字段名",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.atools.swagger.properties.SwaggerSecurityProperties$ApiKey",
+      "defaultValue": "X-Authorization",
+      "name": "spring.swagger.security.api-key.name",
+      "description": "鉴权策略ID；对应 SecurityReferences ID",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.atools.swagger.properties.SwaggerSecurityProperties$ApiKey",
+      "defaultValue": "header",
+      "name": "spring.swagger.security.api-key.param-type",
+      "description": "传递参数的类型；默认 header 存放",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.atools.swagger.properties.SwaggerSecurityProperties$ApiKey",
+      "name": "spring.swagger.security.api-key.path-type",
+      "description": "匹配的路径（默认所有）",
+      "type": "com.atools.swagger.properties.enums.PathType"
+    },
+    {
+      "sourceType": "com.atools.swagger.properties.SwaggerProperties",
+      "defaultValue": "",
+      "name": "spring.swagger.terms-of-service-url",
+      "description": "服务条款URL",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.atools.swagger.properties.SwaggerProperties",
+      "defaultValue": "",
+      "name": "spring.swagger.title",
+      "description": "标题",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.atools.swagger.properties.SwaggerProperties",
+      "defaultValue": false,
+      "name": "spring.swagger.validator-plugin",
+      "description": "是否开启验证插件支持（默认关闭）",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.atools.swagger.properties.SwaggerProperties",
+      "defaultValue": "",
+      "name": "spring.swagger.version",
+      "description": "版本",
+      "type": "java.lang.String"
+    }
+  ]
+}

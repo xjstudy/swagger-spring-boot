@@ -1,0 +1,9 @@
+/Users/admin/eclipse-workspace/swagger-spring-boot-master/swagger-spring-boot-starter/src/main/java/com/atools/swagger/properties/enums/PathType.java
+/Users/admin/eclipse-workspace/swagger-spring-boot-master/swagger-spring-boot-starter/src/main/java/com/atools/swagger/properties/SwaggerProperties.java
+/Users/admin/eclipse-workspace/swagger-spring-boot-master/swagger-spring-boot-starter/src/main/java/com/atools/swagger/configuration/MyBeanValidatorPluginsConfiguration.java
+/Users/admin/eclipse-workspace/swagger-spring-boot-master/swagger-spring-boot-starter/src/main/java/com/atools/swagger/security/SwaggerSecurity.java
+/Users/admin/eclipse-workspace/swagger-spring-boot-master/swagger-spring-boot-starter/src/main/java/com/atools/swagger/annotation/EnableSwagger2Doc.java
+/Users/admin/eclipse-workspace/swagger-spring-boot-master/swagger-spring-boot-starter/src/main/java/com/atools/swagger/SwaggerAutoConfiguration.java
+/Users/admin/eclipse-workspace/swagger-spring-boot-master/swagger-spring-boot-starter/src/main/java/com/atools/swagger/properties/ApiDataType.java
+/Users/admin/eclipse-workspace/swagger-spring-boot-master/swagger-spring-boot-starter/src/main/java/com/atools/swagger/properties/SwaggerSecurityProperties.java
+/Users/admin/eclipse-workspace/swagger-spring-boot-master/swagger-spring-boot-starter/src/main/java/com/atools/swagger/properties/ApiParamType.java
